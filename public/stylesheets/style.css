@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.page-width {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+section {
+}
+
+
+
+
+@media (min-width: 0) and (max-width: 800px) {
+    .page-width {
+        width: 90%;
+    }
+}
